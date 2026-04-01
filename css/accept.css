@@ -1,0 +1,36 @@
+.letter {
+  text-align: justify;
+  text-align-last: center;
+
+  padding: 2rem 5rem;
+  margin-left: 1rem;
+  text-indent: 4rem;
+}
+
+.flower {
+  position: absolute;
+  height: 230px;
+  width: 200px;
+  bottom: 0;
+  right: 0;
+
+  transform: translate(50%, 40%);
+}
+
+.star {
+  position: absolute;
+  height: 190px;
+  width: 190px;
+  top: 0;
+  left: 0;
+
+  transform: translate(-20%, -30%);
+}
+
+body {
+  margin: 0;
+  background-image: url("/assets/a-bonfire-on-the-beach-at-sunset-free-photo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

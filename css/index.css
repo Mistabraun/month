@@ -1,0 +1,40 @@
+.balloon,
+.balloon2 {
+  position: absolute;
+  width: 15rem;
+  height: 20rem;
+  top: 0;
+}
+
+.balloon {
+  left: 0;
+  transform: translate(-30%, -30%);
+}
+
+.balloon2 {
+  right: 0;
+  transform: translate(30%, -30%);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--text);
+  background-color: var(--accent);
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  font-family: var(--heading);
+
+  transition: scale 0.1s ease-in;
+}
+
+.footer a:hover {
+  scale: 1.1;
+  background-color: var(--accent-focus);
+}

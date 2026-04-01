@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="loader"></div>
+    <audio autoplay loop id="bg-music">
+      <source src="assets/Taylor Swift - Mine (Taylor's Version) (Lyric Video).mp3" type="audio/mpeg" />
+    </audio>
+    <div id="root">
+      <section class="center">
+        <img class="balloon" src="/assets/balloon.png" alt="Balloon" />
+        <img class="balloon2" src="/assets/balloon.png" alt="Balloon" />
+        <div class="container">
+          <div class="title">
+            <h1>HAPPY MONTHSARY!</h1>
+            <div class="footer">
+              <button class="button-82-pushable" role="button" id="accept" onclick="goTo('/accept.html')">
+                <span class="button-82-shadow"></span>
+                <span class="button-82-edge"></span>
+                <span class="button-82-front text"> ACCEPT </span>
+              </button>
+              <button class="button-82-pushable" role="button" id="reject" onclick="goTo('/reject.html')">
+                <span class="button-82-shadow"></span>
+                <span class="button-82-edge"></span>
+                <span class="button-82-front text"> REJECT</span>
+              </button>
+            </div>
+          </div>
+          <img src="assets/dudu-flower.gif" alt="Dudu" style="margin-right: 1rem" />
+        </div>
+      </section>
+    </div>
+  </body>
+  <script src="javascript/index.js"></script>
+</html>
